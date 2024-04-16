@@ -1,1 +1,1 @@
-# Lab 2 - Starter
+https://cmy0357.github.io/cse110-lab2/
