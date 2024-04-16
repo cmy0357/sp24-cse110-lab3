@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mingyang Chen">
+        <link rel="icon" href="/images/favicon_ucsd.png">
+        <title>Meeting Minute Week 1</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Meeting Minute Week 1</h1>
+            <div>Brainstorming</div>
+            <span>April 11, 2024</span>
+            <nav>
+                <ul>
+                    <li><a href="#attdList">Attendence list</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#discussion">Discussion</a></li>
+                    <li><a href="#next">Next Meeting</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="attdList">
+                <h2>Attendence list</h2>
+                <ul>
+                    <li>Henry</li>
+                    <li>Rachel</li>
+                    <li>Jason</li>
+                </ul>
+            </section>
+
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Introduction</li>
+                    <li>Discuss <b>Project</b></li>
+                    <li>Brainstorm ideas</li>
+                </ol>
+            </section>
+
+            <section id="discussion">
+                <h2>Discussion</h2>
+                <p>
+                    In this meeting, we discussed ideas related to our first project in <i>CSE 110</i>. <br />
+                    Here's some details of the meeting:
+                </p>
+                <details>
+                    <summary>Details</summary>
+                    <p>
+                        Here's some details of the meeting ....
+                    </p>
+                </details>
+
+                <h3>Video</h3>
+                <video controls src="/images/sample_video.mp4"></video>
+
+                <h3>Audio</h3>
+                <audio controls src="/images/sample_audio.mp3"></audio>
+
+                <h3>Image</h3>
+                <img src="/images/sample_image.jpg" alt="Image of the meeting"/>
+            </section>
+
+            <section id="next">
+                <h2>Next Meeting</h2>
+                <p>
+                    We will be meeting again <strong>next Monday</strong> to <em>further discuss the project</em>. 
+                </p>
+            </section>
+
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Survey</legend>
+                    <label for="feeling">How're you feeling today?</label>
+                    <select name="feeling" id="feeling">
+                        <option value="Default">Select your option</option>
+                        <option value="Good">Good</option>
+                        <option value="VeryGood">Very Good</option>
+                    </select>
+
+                    <br />
+
+                    <label for="color-choice">What's your favorite color?</label>
+                    <input list="color" name="color-choice" id="color-choice"/>
+                    <datalist id="color-choice">
+                        <option value="Blue"></option>
+                        <option value="Red"></option>
+                        <option value="Green"></option>
+                        <option value="Other"></option>
+                    </datalist>
+
+                    <br />
+
+                    <label for="comments">Any comments?</label> <br />
+                    <textarea name="comments" id="comments"></textarea>
+
+                    <br />
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            
+        </main>
+
+        <hr />
+
+        <footer>
+            <p>
+                This page is made by Mingyang Chen on April 16, 2024
+            </p>
+        </footer>
+    </body>
+
+</html>
