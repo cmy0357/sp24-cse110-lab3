@@ -48,14 +48,19 @@ h3 {
     color: var(--h3-color);
 }
 
-#video {
-    max-height: 5in;
-    max-width: 5in;
+#names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    gap: 30px;
 }
 
-#image {
-    height: 200px;
-    width: 200px;
+#tasks {
+    display: grid;
+    grid-template-columns: 90px 60px 90px;
+    justify-items: center;
+    gap: 10px 30px;
 }
 
 footer {
