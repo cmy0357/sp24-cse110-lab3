@@ -9,9 +9,15 @@
 
 * {
     background-color: var(--bg-color);
+    text-align: start;
+}
+
+body {
+    display: inline-block;
 }
 
 h1 {
+    position: static;
     color: var(--h1-color);
     margin-top: 5vh;
     margin-bottom: 2pt;
@@ -31,6 +37,7 @@ h1 {
     border-color: var(--subtitle-color);
     border-width: 1px;
     border-radius: 10% / 40%;
+    display: block;
 }
 
 h2 {
@@ -41,7 +48,19 @@ h3 {
     color: var(--h3-color);
 }
 
+#video {
+    max-height: 5in;
+    max-width: 5in;
+}
+
+#image {
+    height: 200px;
+    width: 200px;
+}
+
 footer {
     color: var(--footer-color, black);
     margin: 1em 0 1em 0;
+    position: sticky;
+    bottom: 1px;
 }
