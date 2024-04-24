@@ -25,7 +25,7 @@
         <main>
             <section id="attdList">
                 <h2>Attendence list</h2>
-                <ul>
+                <ul id="names">
                     <li>Henry</li>
                     <li>Rachel</li>
                     <li>Jason</li>
@@ -34,7 +34,7 @@
 
             <section id="agenda">
                 <h2 style="text-decoration: wavy underline;">Agenda</h2>
-                <ol>
+                <ol id="tasks">
                     <li>Introduction</li>
                     <li>Discuss <b>Project</b></li>
                     <li>Brainstorm ideas</li>
@@ -62,6 +62,18 @@
 
                 <h3>Image</h3>
                 <img src="images/sample_image.jpg" alt="Image of the meeting" id="image"/>
+
+                <style>
+                    #video {
+                        max-height: 5in;
+                        max-width: 5in;
+                    }
+
+                    #image {
+                        height: 200px;
+                        width: 200px;
+                    }
+                </style>
             </section>
 
             <section id="next">
