@@ -8,11 +8,11 @@
 }
 
 * {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color); /* This sets the background color of the page */
     text-align: start;
 }
 
-body {
+header, main {
     display: inline-block;
 }
 
@@ -48,6 +48,12 @@ h3 {
     color: var(--h3-color);
 }
 
+#attdList {
+    ul li {
+        color: purple;
+    }
+}
+
 #names {
     display: flex;
     flex-direction: row;
@@ -63,9 +69,31 @@ h3 {
     gap: 10px 30px;
 }
 
+.button:hover {
+    background-color: yellow;
+}
+
+.button:active {
+    background-color: greenyellow;
+}
+
 footer {
     color: var(--footer-color, black);
     margin: 1em 0 1em 0;
     position: sticky;
     bottom: 1px;
+}
+
+@media screen and (max-width: 50em) {
+    * {
+        background-color: white;
+    }
+}
+
+a[href="#attdList"] {
+    color: red;
+}
+
+h2:has(+ ul) {
+    text-decoration: underline;
 }
