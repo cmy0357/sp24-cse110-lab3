@@ -1,0 +1,37 @@
+:root {
+    --bg-color: #deedf5;
+    --h1-color: darkblue;
+    --h2-color: rgb(30% 20% 50%);
+    --h3-color: hsl(250 30% 60%);
+    --subtitle-color: color-mix(in lch, blue, green);
+    --footer-color: color(srgb 0.5 0.2 0.8 / 0.5);
+}
+
+* {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--h1-color);
+}
+
+h2 {
+    color: var(--h2-color);
+}
+
+h3 {
+    color: var(--h3-color);
+}
+
+#subtitle, #date {
+    color: var(--subtitle-color);
+}
+
+#attdList {
+    
+}
+
+
+footer {
+    color: var(--footer-color, black)
+}
