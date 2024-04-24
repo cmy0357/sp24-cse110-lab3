@@ -13,6 +13,24 @@
 
 h1 {
     color: var(--h1-color);
+    margin-top: 5vh;
+    margin-bottom: 2pt;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding-top: 0;
+    padding-bottom: 5mm;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#subtitle {
+    color: var(--subtitle-color);
+    margin: auto;
+    padding: 0.5em 40vw 0.5rem 40vw;
+    border-style: solid;
+    border-color: var(--subtitle-color);
+    border-width: 1px;
+    border-radius: 10% / 40%;
 }
 
 h2 {
@@ -23,15 +41,7 @@ h3 {
     color: var(--h3-color);
 }
 
-#subtitle, #date {
-    color: var(--subtitle-color);
-}
-
-#attdList {
-    
-}
-
-
 footer {
-    color: var(--footer-color, black)
+    color: var(--footer-color, black);
+    margin: 1em 0 1em 0;
 }
